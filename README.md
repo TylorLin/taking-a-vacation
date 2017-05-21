@@ -22,5 +22,5 @@ def rental_car_cost(days):
     #下面trip_cost為什麼只用兩個變數就完成了?hotel的變數為什麼被更改了
 def trip_cost(city,days):
     return hotel_cost(days)+plane_ride_cost(city)+rental_car_cost(days)
-    #下面這個print顯示不出來在我的結果
-        print trip_cost("Los Angeles",5,600)
+    #print 要從頭開始寫  
+print trip_cost("Los Angeles",5,600)
